@@ -1,0 +1,10 @@
+// Write a function that takes input of two arrays and returns a new array containing the new elements that present in both the arrays
+// Example array1=[1,2,3,4] array2=[5,6,7,8] result=[1,2,3,4,5,6,7,8];
+
+const num1=[1,2,3,4,];
+const num2=[7,8,9,];
+
+const newArr=(a,b)=>{
+    return a+b;
+}
+console.log(newArr(num1+','+num2));
